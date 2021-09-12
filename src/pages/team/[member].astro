@@ -1,0 +1,21 @@
+---
+import Layout from "../../layouts/base.astro"
+
+export async function getStaticPaths() {
+    const data = await fetch("../../data.json").then(response => response.json());
+    
+    return data.team.map(item => {
+        return {
+            params: {member: item.name},
+            props: {item}
+        }
+    })
+}
+
+const {member} = Astro.request.params
+const {item} = Astro.props
+---
+<Layout title={"Red Circuit Team"}>
+    <h2>Team Index</h2>
+    <h2>{member}</h2>
+</Layout>

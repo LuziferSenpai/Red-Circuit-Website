@@ -1,0 +1,115 @@
+{
+    "team": [
+        {
+            "name": "Boldviking",
+            "aboutme": "I have been playing games since the 90s. Grew up with all kinds of consoles. Today I have an office job, which I am kinda bored of, so I turned to twitch to have some more fun :D. I live in the south of Germany, grew up in Dutch and got schooled in English, as such I have a weird accent :D.",
+            "discord": "https://discord.boldviking.red-circuit.org/",
+            "email": "boldviking@boldviking.org",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://boldviking.red-circuit.org/",
+            "twitter": "https://twitter.boldviking.red-circuit.org/",
+            "youtube": "https://youtube.boldviking.red-circuit.org/",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "Caledorn",
+            "aboutme": "I love to play a huge variety of games. My primary genres are strategy games that require thought and planning (e.g. Factorio, Satisfactory, the Anno series), city builder/colony management games (e.g. Banished, Dawn of Man, The Universim), grand strategy games (e.g. Stellaris, the Europa Universalis series, the Crusader Kings series), stealth games like the Dishonored & Thief series, role-playing games (e.g. The Elder Scrolls series, the Fallout series), the Total War games, and a variety of MMOs. I love posting Let's Play series of various games - not exclusively among the genres listed above, but there will be a bias towards games within those genres - particularly strategy games.",
+            "discord": "",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/caledorn",
+            "twitter": "",
+            "youtube": "",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "JDPlays",
+            "aboutme": "",
+            "discord": "",
+            "email": "",
+            "imageending": "png",
+            "redirect": "https://jdplays.red-circuit.org/",
+            "twitch": "https://www.twitch.tv/jdplays",
+            "twitter": "",
+            "youtube": "",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        }
+    ],
+    "associated": [
+        {
+            "name": "DigitalDisappointment",
+            "aboutme": "Associated",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/digitaldisappointment",
+            "youtube": ""
+        },
+        {
+            "name": "mee_shell",
+            "aboutme": "Associated",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/mee_shell",
+            "youtube": ""
+        }
+    ]
+}

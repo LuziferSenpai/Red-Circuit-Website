@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --selectedcolor: #787878;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+    .awithhover:hover {
+        color: var(--selectedcolor);
+    }
+
+    .awithhover::before, .awithhover::after {
+        display: inline-block;
+        font-size: inherit;
+        opacity: 0;
+        -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+        -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+        transition: transform 0.3s, opacity 0.2s;
+    }
+
+    .awithhover::before {
+        margin-right: 0.5rem;
+        content: "❯";
+        color: var(--selectedcolor);
+        -webkit-transform: translateX(1.25rem);
+        -moz-transform: translateX(1.25rem);
+        transform: translateX(1.25rem);
+    }
+
+    .awithhover::after {
+        margin-left: 0.5rem;
+        content: "❮";
+        color: var(--selectedcolor);
+        -webkit-transform: translateX(-1.25rem);
+        -moz-transform: translateX(-1.25rem);
+        transform: translateX(-1.25rem);
+    }
+
+    .awithhover:hover::before, .awithhover:hover::after, .awithhover:focus::before, .awithhover:focus::after {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
