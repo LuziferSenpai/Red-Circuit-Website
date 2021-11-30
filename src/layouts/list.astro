@@ -1,0 +1,17 @@
+---
+interface Props {
+    doc: object
+}
+
+const {
+    doc = site.doc,
+    type = site.type
+} = Astro.props as props
+---
+
+<div id={doc.name} class="flex w-100 p-4 mx-4 flex-col items-center linetop lg:grid lg:grid-rows-list lg:justify-items-center">
+    {type == "team" ? <a href={(doc.redirect.length > 0 ? doc.redirect : `/team/${doc.name}`)}><img class="max-w-pic max-h-pic" src={`/member_images/${doc.name}.${doc.imageending}`} alt=""></a> : <img class="max-w-pic max-h-pic" src={`/member_images/${doc.name}.${doc.imageending}`} alt="">}
+    <h1 class="py-4 text-3xl lg:py-0">{doc.name}</h1>
+    {doc.aboutme.length > 0 ? <p class="w-11/12 max-h-text px-4 py-2 text-center bg-nicegray2 border border-opacity-0 rounded-xl overflow-y-auto noscrollbar lg:py-0">{doc.aboutme}</p> : <div></div>}
+    <a class="w-auto mt-4 awithhover lg:mt-0" href={doc.redirect.length > 0 && type === "associated" ? doc.redirect : doc.twitch.length > 0 ? doc.twitch : doc.youtube}>{doc.redirect.length > 0 && type === "associated" ? "Website" : doc.twitch.length > 0 ? "Twitch" : "Youtube"}</a>
+</div>

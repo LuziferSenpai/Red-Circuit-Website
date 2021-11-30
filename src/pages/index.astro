@@ -1,6 +1,15 @@
 ---
+import {Markdown} from "astro/components"
 import Layout from "../layouts/base.astro"
+import data from "../data.json"
+
+const mark = data.general.about
 ---
 <Layout title={"Red Circuit"}>
-    <h2>Index</h2>
+    <div class="index_markdown py-5">
+        <Markdown content={mark} />
+    </div>
+    <!-- <div class="flex w-100 flex-col items-center py-5">
+        <h2 class="text-2xl font-bold text-red-700">Next/Current Event(s)</h2>
+    </div> -->
 </Layout>

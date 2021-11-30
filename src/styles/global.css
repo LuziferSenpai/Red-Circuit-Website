@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* https://fontawesome.com/license */
+
 :root {
-    --selectedcolor: #787878;
+    --selectedcolor: #b91c1c;
 }
 
 * {
@@ -11,7 +13,54 @@
     margin: 0;
 }
 
-@media (min-width: 1024px) {
+.noscrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.noscrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.title_font {
+    font-family: "Cinzel Decorative", cursive;
+}
+
+.index_markdown p {
+    @apply mx-3;
+}
+
+.index_markdown p + p, .index_markdown p + ul, .index_markdown ul + p {
+    @apply mt-4;
+}
+
+.index_markdown ul {
+    @apply mx-7 list-disc;
+}
+
+.index_markdown li + li, .index_markdown li ul {
+    @apply mt-2;
+}
+
+.index_markdown a {
+    @apply underline;
+}
+
+@media (max-width: 767px) {
+    .linetop + .linetop {
+        @apply border-t border-red-700;
+    }
+}
+
+@media (min-width: 768px) {
+    .dropdownmenu {
+        transition: all .1s ease;
+    }
+
+    .dropdown:hover > .dropdownmenu, .dropdown .focus-within > .dropdownmenu, .dropdown .dropdownmenu:hover, .dropdown .dropdownmenu:focus {
+        @apply opacity-100 visible;
+    }
+
     .awithhover:hover {
         color: var(--selectedcolor);
     }

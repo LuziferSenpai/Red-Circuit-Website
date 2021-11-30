@@ -1,14 +1,14 @@
 ---
-import NavbarDesktop from "../components/Navbar_Desktop.jsx"
 import NavbarMobile from "../components/Navbar_Mobile.jsx"
+import data from "../data.json"
 
 interface Props {
-	title: string;
+	title: string
 }
 
 const {
-	title = site.title,
-} = Astro.props as props;
+	title = site.title
+} = Astro.props as props
 ---
 <html lang="en">
     <head>
@@ -19,16 +19,50 @@ const {
         <link rel="icon" type="image/png" sizes="16x16" href="/images/icon/favicon-16x16.png">
         <link rel="manifest" href="/images/icon/site.webmanifest">
         <link rel="mask-icon" href="/images/icon/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="stylesheet" href={Astro.resolve('../styles/global.css')}>
+        <link rel="stylesheet" href={Astro.resolve("../styles/global.css")}>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
 
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width"/>
+
+        <style>
+            @media (min-width: 1024px) {
+                body {
+                    background-image: url("/images/background.jpg")
+                }
+            }
+        </style>
     </head>
-    <body class="flex h-full flex-col items-center bg-nicegray text-white">
-        <NavbarDesktop/>
+    <body class="flex h-full flex-col items-center bg-nicegray text-white noscrollbar">
+        <header class="hidden w-full py-4 bg-nicegray border-b border-red-700 lg:block">
+            <nav class="flex container h-auto pb-2 mx-auto flex-row items-center">
+                <div class="flex w-3/4 flex-row items-center">
+                    <a class="mr-2 text-3xl font-bold text-red-800 truncate title_font" href="/">Red Circuit</a>
+                    <div class="inline-block relative dropdown mx-2">
+                        <div class="flex items-center">
+                            <a class="px-2 text-2xl font-medium hover:opacity-75" href="/team">Team Members</a>
+                        </div>
+                        <div class="flex absolute bg-nicegray z-10 opacity-0 invisible flex-col items-center rounded whitespace-nowrap dropdownmenu">
+                            {data.team.map(doc => <a class="px-2 pt-2 text-lg awithhover" href={doc.redirect.length > 0 ? doc.redirect : `/team/${doc.name}`}>{doc.name}</a>)}
+                        </div>
+                    </div>
+                    <div class="inline-block relative dropdown mx-2">
+                        <div class="flex items-center">
+                            <a class="px-2 text-2xl font-medium hover:opacity-75" href="/associated">Associated</a>
+                        </div>
+                        <div class="flex absolute bg-nicegray z-10 opacity-0 invisible flex-col items-center rounded whitespace-nowrap dropdownmenu">
+                            {data.associated.map(doc => <a class="px-2 pt-2 text-lg awithhover" href={`/associated#${doc.name}`}>{doc.name}</a>)}
+                        </div>
+                    </div>
+                    <a class="mx-2 text-2xl font-medium hover:opacity-75" href="/about">About</a>
+                </div>
+            </nav>
+        </header>
         <NavbarMobile client:load/>
-        <slot/>
+        <main class="container lg:mt-20 lg:border lg:border-red-700 lg:bg-nicegray">
+            <slot/>
+        </main>
     </body>
 </html>

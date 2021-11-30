@@ -1,6 +1,10 @@
 ---
 import Layout from "../../layouts/base.astro"
+import List from "../../layouts/list.astro"
+import data from "../../data.json"
 ---
-<Layout title={"Red Circuit - Team"}>
-    <h2>Team Index</h2>
+<Layout title={"Red Circuit Team"}>
+    <div class="w-full md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+        {data.team.map(doc => <List doc={doc} type={"team"} />)}
+    </div>
 </Layout>

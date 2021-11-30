@@ -1,0 +1,16 @@
+---
+import {Markdown} from "astro/components"
+import Layout from "../layouts/base.astro"
+import data from "../data.json"
+
+const mark1 = data.general.about
+const mark2 = data.general.contact
+const mark3 = data.general.partof
+---
+<Layout title={"Red Circuit Team - About"}>
+    <div class="index_markdown py-5">
+        <Markdown content={mark1} />
+        <Markdown content={mark2} />
+        <Markdown content={mark3} />
+    </div>
+</Layout>

@@ -2,9 +2,9 @@
 import Layout from "../../layouts/base.astro"
 
 export async function getStaticPaths() {
-    const data = await fetch("../../data.json").then(response => response.json());
-    
-    return data.team.map(item => {
+    const data = await import("../../data.json")
+
+    return data.default.team.map(item => {
         return {
             params: {member: item.name},
             props: {item}
@@ -15,7 +15,19 @@ export async function getStaticPaths() {
 const {member} = Astro.request.params
 const {item} = Astro.props
 ---
-<Layout title={"Red Circuit Team"}>
-    <h2>Team Index</h2>
-    <h2>{member}</h2>
+<Layout title={`Red Circuit Team - ${member}`}>
+    <div class="flex w-full p-4 flex-col items-center">
+        <img class="max-w-pic max-h-pic" src={`/member_images/${item.name}.${item.imageending}`} alt="">
+        <div class="flex flex-col items-center">
+            <h1 class="py-4 text-3xl">{member}</h1>
+            {item.aboutme.length > 0 && <p class="w-11/12 px-4 py-2 text-center bg-nicegray2 border border-opacity-0 rounded-xl">{item.aboutme}</p>}
+        </div>
+        <div class="grid w-full pt-4 grid-flow-col auto-cols-auto grid-rows-2 gap-4 justify-center justify-items-center md:grid-rows-1">
+            {item.twitch.length > 0 && <a href={item.twitch}><img class="w-70px h-70px" src="/images/twitch.png"></a>}
+            {item.discord.length > 0 && <a href={item.discord}><img class="w-70px h-70px" src="/images/discord.png"></a>}
+            {item.youtube.length > 0 && <a href={item.youtube}><img class="w-70px h-70px" src="/images/youtube.png"></a>}
+            {item.twitter.length > 0 && <a href={item.twitter}><img class="w-70px h-70px" src="/images/twitter.png"></a>}
+            {item.email.length > 0 && <a href={`mailto:${item.email}`}><img class="w-70px h-70px" src="/images/email.png"></a>}
+        </div>
+    </div>
 </Layout>

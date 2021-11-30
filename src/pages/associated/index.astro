@@ -1,6 +1,10 @@
 ---
 import Layout from "../../layouts/base.astro"
+import List from "../../layouts/list.astro"
+import data from "../../data.json"
 ---
-<Layout title={"Red Circuit - Associated"}>
-    <h2>Associated</h2>
+<Layout title={"Red Circuit Associated"}>
+    <div class="w-full md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {data.associated.map(doc => <List doc={doc} type={"associated"} />)}
+    </div>
 </Layout>

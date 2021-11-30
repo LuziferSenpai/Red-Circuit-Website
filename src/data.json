@@ -1,6 +1,68 @@
 {
     "team": [
         {
+            "name": "Aussienutz",
+            "aboutme": "My name is Dale and I started gaming on PC back in the 90's. My first PC\n game was Quake2 and though I loved the single player aspect, it really \ntook off for me when I played a little map called Q2DM1 \"The Edge\". That\n map was by far the best map I ever played and to this day I remember \ngetting the double jump down pat and listening to the maps sound queues,\n to tell where my competition was. This game MADE me learn WASD and NOT \nuse the arrow keys\nFast forward to 2005 and I picked up a gem of a game called World of \nWarcraft, where I ended up meeting my amazing wifey of now 14 years. \nOriginally from Adelaide, AU, I moved to USA and have been here ever \nsince, gaming with her.\nWe play MMO's, FPS and a variety of other games. I started to stream \nseriously as of 2020 and since I am already playing the games I miles \nwell share it with you guys and meet new friends!",
+            "discord": "https://discord.gg/26nbJxT",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/aussienutz",
+            "twitter": "https://twitter.com/Auzzienutz",
+            "youtube": "https://www.youtube.com/aussienutz",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "BojTheBoj",
+            "aboutme": "",
+            "discord": "https://discord.gg/7YwFf8j",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/bojtheboj",
+            "twitter": "https://twitter.com/bojtheboj",
+            "youtube": "",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
             "name": "Boldviking",
             "aboutme": "I have been playing games since the 90s. Grew up with all kinds of consoles. Today I have an office job, which I am kinda bored of, so I turned to twitch to have some more fun :D. I live in the south of Germany, grew up in Dutch and got schooled in English, as such I have a weird accent :D.",
             "discord": "https://discord.boldviking.red-circuit.org/",
@@ -63,15 +125,387 @@
             }
         },
         {
-            "name": "JDPlays",
+            "name": "ChurchOrganist",
+            "aboutme": "Co-founder of the Red Circuit team, unfortunately he passed away peacefully after a long illness on 20th July 2021 aged 70 years.",
+            "discord": "https://discord.gg/Each4u9",
+            "email": "",
+            "imageending": "png",
+            "redirect": "https://funeral-notices.co.uk/notice/cowgill/4962277",
+            "twitch": "https://www.twitch.tv/churchorganist",
+            "twitter": "",
+            "youtube": "https://www.youtube.com/channel/UC04E-riqHhV6t8AwdiPdF6w",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "Dr_Doof",
+            "aboutme": "",
+            "discord": "https://discord.gg/M9QEewQ",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/dr_doof",
+            "twitter": "https://twitter.com/doofmenow",
+            "youtube": "",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "Haphollas",
+            "aboutme": "",
+            "discord": "https://discord.gg/YH6wc69",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/haphollas",
+            "twitter": "https://twitter.com/Haphollas",
+            "youtube": "",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "huggybeats",
+            "aboutme": "",
+            "discord": "https://discord.gg/TmSAyWY8J7",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "",
+            "twitter": "https://twitter.com/huggybeats",
+            "youtube": "https://www.youtube.com/channel/UCMgzeuL5G8F8QaHgTTkhGcg",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "Intertoothh",
+            "aboutme": "",
+            "discord": "http://discord.gg/V2puxS3",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/intertoothh",
+            "twitter": "https://twitter.com/intertoothh",
+            "youtube": "",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "JD Plays",
             "aboutme": "",
             "discord": "",
             "email": "",
             "imageending": "png",
             "redirect": "https://jdplays.red-circuit.org/",
             "twitch": "https://www.twitch.tv/jdplays",
-            "twitter": "",
+            "twitter": "https://twitter.com/JD_Play5",
+            "youtube": "https://youtube.com/jdplays",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "LaureenLlama",
+            "aboutme": "Some Llamas call me 'Mama Llama', some call me 'The Great Oppressor'. I'm a survival-strategy enthusiast, arts and crafts appreciator, and a talking Llama. Or should I call it variety streaming?",
+            "discord": "https://discord.gg/sgVpyfwtWx",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/laureenllama",
+            "twitter": "https://twitter.com/laureen_llama",
+            "youtube": "https://www.youtube.com/channel/UCOJegdAE5U3385Mp5yXb48g",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "Leamnji",
+            "aboutme": "Hi, my name is Leam aka David and I stream mainly variety. Mostly Indies, Sandbox, Survival, Stategic type of games. I also dabble in a lot of community and coop games on weekends. I enjoy all manners of IT, tech (dayjob), space, science and anything around that really. What a nerd, huh?",
+            "discord": "https://discord.gg/bd8SKU7",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/leamnji",
+            "twitter": "https://twitter.com/Leamnji",
+            "youtube": "https://www.youtube.com/Leamnji",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "MojoD",
+            "aboutme": "",
+            "discord": "",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/mojod",
+            "twitter": "https://twitter.com/MojoDTV",
             "youtube": "",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "NIronwolf",
+            "aboutme": "",
+            "discord": "https://discord.gg/SfrH2aQ",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/nironwolf",
+            "twitter": "https://twitter.com/NIronwolf",
+            "youtube": "https://www.youtube.com/channel/UCYHScpTsWGrqDzchE2aBuAQ",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "sparkleandpop",
+            "aboutme": "Krissie. Variety Streamer. Zombie enthusiast. Horror Lover. But if you came here for skill, you came to the wrong place.",
+            "discord": "https://discord.gg/zykdTVq",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/sparkleandpop",
+            "twitter": "",
+            "youtube": "https://www.youtube.com/channel/UCwwwYX1GG38c522nALLLs0Q",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "Wazations",
+            "aboutme": "",
+            "discord": "https://discord.gg/xe8mymr",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/wazations",
+            "twitter": "https://twitter.com/Wazations",
+            "youtube": "https://www.youtube.com/user/Wazations",
+            "tab1": {
+                "title": "",
+                "content": ""
+            },
+            "tab2": {
+                "title": "",
+                "content": ""
+            },
+            "tab3": {
+                "title": "",
+                "content": ""
+            },
+            "tab4": {
+                "title": "",
+                "content": ""
+            },
+            "tab5": {
+                "title": "",
+                "content": ""
+            }
+        },
+        {
+            "name": "Xelie",
+            "aboutme": "",
+            "discord": "https://discord.gg/N3bk4nt",
+            "email": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/xelie",
+            "twitter": "",
+            "youtube": "https://www.youtube.com/channel/UClqCZHMbgZ-LnKXAiWj4Rgw",
             "tab1": {
                 "title": "",
                 "content": ""
@@ -96,20 +530,154 @@
     ],
     "associated": [
         {
+            "name": "bethany_zzz",
+            "aboutme": "Hi, my name is Beth. I've been playing video games for as long as I can remember, but I'm new to PC gaming. I'm really loving trying out new things, and making new friends. I've discovered I really like horror games, especially Phasmophobia so you can expect to see a lot of that in my channel.",
+            "imageending": "jpg",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/bethany_zzz",
+            "youtube": "https://www.youtube.com/channel/UCLIrKaxLlX0ukU1uDd-GGjQ"
+        },
+        {
+            "name": "BigWolfChris",
+            "aboutme": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/bigwolfchris",
+            "youtube": "https://www.youtube.com/channel/UCnQAWr8gQQTqR6F-MbTDTBQ"
+        },
+        {
+            "name": "cl0wnt0wn",
+            "aboutme": "Streamer, Man of Exquisite Passion, Sir/Sire",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/cl0wnt0wn",
+            "youtube": "https://www.youtube.com/cl0wnt0wnvids"
+        },
+        {
+            "name": "CMDR_Aconite",
+            "aboutme": "Hey all! About Us: Hi there, We are Cmdr_Aconite & SnowKarmi. We play a variety of different games including FPS, MMO’s and Cooperative games, we also like to get the community to join us on stream if we can. We have created a great place for people to hang out and chill!",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/cmdr_aconite",
+            "youtube": "https://www.youtube.com/channel/UCkI1LbUG0iO629m-rRsAlsQ"
+        },
+        {
+            "name": "DaRanged",
+            "aboutme": "I'm old... impossibly old it feels at times! London born Greek Cypriot, grew up on the old machines, Speccy, C64, then Amiga, cut my teeth on Unix at Uni, done a lot of coding in various languages. I am a certified Linux engineer by day, and pianist, photographer, cook, tech-geek, and of course gamer by night",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/daranged7",
+            "youtube": ""
+        },
+        {
             "name": "DigitalDisappointment",
-            "aboutme": "Associated",
+            "aboutme": "Hey all. Double-D here, or Digital. I stream nearly anything, as I allow \"viewer requests\" paid in channel points (ie. free to regular viewers). I've got hundreds of hours in Rising World, Binding of Isaac, Fallout 4, Fallout NV, Gnomoria, Stardew Valley, Factorio, Spelunky, Lord of the Rings Online, Terraria, Starbound... and thousands of hours in Civilization 4, Civ 5, ARK... and I don't even wanna talk about Minecraft.",
             "imageending": "png",
             "redirect": "",
             "twitch": "https://www.twitch.tv/digitaldisappointment",
+            "youtube": "https://www.youtube.com/channel/UCgspydJdBoyZ2W1mJROvJvg"
+        },
+        {
+            "name": "elPainTrain",
+            "aboutme": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/elpaintrain",
+            "youtube": ""
+        },
+        {
+            "name": "Evilrais",
+            "aboutme": "Hey!!! Evilrais here or as my close gamer friends call me Rais!!! I am 33 years old and i live in Texas, I have been gaming for as long as i can remember. My favorite games are Simulation, City builders, and Colony Management... My Favorite game is Factorio with over 2000 hours played!!!!",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/evilrais",
+            "youtube": ""
+        },
+        {
+            "name": "EvolvedPixel",
+            "aboutme": "My name is EvolvedPixel. I play a wide variety of games, and I will give anything a go! If you're looking for a master of gaming though...look elsewhere. A skilful gamer, I am not. But if you're looking to have fun and be part of a community, then pop in and say hi!",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/evolvedpixel",
+            "youtube": "https://www.youtube.com/channel/UCmqqxTYUfbnvfUKBIEdrKgA"
+        },
+        {
+            "name": "infantryman4life",
+            "aboutme": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/infantryman4life",
+            "youtube": ""
+        },
+        {
+            "name": "Jaruvica",
+            "aboutme": "Hi, I'm Jaruvica. I stream a variety of stuff like sewing, cooking and fun games like RimWorld or Factorio.",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/jaruvica",
+            "youtube": ""
+        },
+        {
+            "name": "MattScratch",
+            "aboutme": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/mattscratch",
             "youtube": ""
         },
         {
             "name": "mee_shell",
-            "aboutme": "Associated",
+            "aboutme": "PhD Bio-Mechanical Engineer turned variety streamer from New Zealand, with a focus on indie, RPG and simulation games. Games are soup, I am fork.",
             "imageending": "png",
             "redirect": "",
             "twitch": "https://www.twitch.tv/mee_shell",
             "youtube": ""
+        },
+        {
+            "name": "MisterMaizena",
+            "aboutme": "Selectively smart gaming enthusiast who have played videogames most of my life. Not the most skilled of players but hopefully somewhat entertaining. I mostly, but not only, stream playthroughs of story-driven games (RPGs, FPS, etc.). Mood in my stream is whimsical and chatty - come say hi!",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://twitch.tv/MisterMaizena",
+            "youtube": "https://www.youtube.com/channel/UCNpMX6E4t08zpoSuNFKBS9A"
+        },
+        {
+            "name": "Okamiwoot",
+            "aboutme": "I am Okamiwoot. I stream scary sh-.. Shtuff and some art stuff. Variety streamer who focuses on a good community and killing friends in games. 18+ streamer who curses worse than a sailor and will never stop. Probably. Also likes cheese and corncobs.",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/okamiwoot",
+            "youtube": ""
+        },
+        {
+            "name": "timick1991",
+            "aboutme": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/timick1991",
+            "youtube": ""
+        },
+        {
+            "name": "TryHardFriends",
+            "aboutme": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/tryhardfriends",
+            "youtube": ""
+        },
+        {
+            "name": "Wally1169",
+            "aboutme": "",
+            "imageending": "png",
+            "redirect": "",
+            "twitch": "https://www.twitch.tv/wally1169",
+            "youtube": "https://www.youtube.com/c/Wally1169"
         }
-    ]
+    ],
+    "general": {
+        "frontpage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "about": "Red Circuit have been created by the end of April 2020 by a team of likeminded streamers that have decided to work together. They are constituting the Core Team: BojTheBoj, BoldViking, ChurchOrganist, Haphollas, Wazations and Xelie. In addition to the streamer team, they have consitituted a non-streamer administration group that is dedicated to help them think, develop and apply ideas related to the team life and progression. As the streamers are also willing to work all together, there is a special focus on developping mutalization accross streamers for off-stream work: game prospection, tools for streamer support and centralized Discord for networking and discussions.\n\nIn addition to founders members, the team is willing to build a shared community and add more likeminded team members so that Red Circuit is able to provide diverse content at any time, all around the world. This community construction is also driven by regular events organized by the team, centered on team members main games and open to all communities when multiplayer is possible, or for challenging streamers on the HotPotato basis!\n\nIn any case, expect chilled streams around building simulation games such as Factorio or Rimworld but not only! Don't hesitate to check team members, you will most probably find a content that will entertain you!",
+        "contact": "* [Discord](https://discord.red-circuit.org/) is the fastest way to get hold of any staff members.\n* Staff members on the Discord have the roles:\n  * Administrators\n  * Team Core\n  * Team Members\n  * Moderators\n* Team Core, and especially Administrator are the only one that can/should be contacted. Please do not disturb Team Members or Moderators, this is not their attributions.\n* Anybody without one of these roles is not staff. They dont speak for Red Circuit\n* If you prefer, you can contact directly an Admin via [Email](mailto:redcircuittwitchteam@gmail.com). This way is not privileged and should only be used for specific contact such as official written proposition (non exclusive list).",
+        "partof": "Red Circuit also recruit motivated people to help streamers for various aspects: moderation, art work, event design and organisation, stream contents and feedback, game prospection and many more! If you feel that you want to be part of the advanture, please contact an administrator on our Discord and present what would be your contribution to the team."
+    }
 }
